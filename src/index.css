@@ -12,7 +12,7 @@
 
 body {
   background-color: rgba(0, 0, 0, 0.85);
-  background-image: url(backdrop_001.png);
+  background-image: url(/backdrop_001.png);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
