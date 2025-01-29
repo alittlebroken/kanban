@@ -1,8 +1,38 @@
-# React + Vite
+# Kanban Board
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A Kanban board for keeping track of your project tasks using zustand for state management with your tasks and their state persisted in localstorage.
 
-Currently, two official plugins are available:
+## TechStack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React + Vite
+- Zustand
+
+## Deployment
+
+- Clone the repo locally
+
+```bash
+git clone https://github.com/alittlebroken/kanban.git
+```
+
+- Go into the project directory
+
+```bash
+cd kanban
+```
+
+- Start the dev server
+
+```bash
+npm run dev
+```
+
+## Future Plans
+
+- Add and remove more boards
+- Add projects for tasks
+- Allow reordering of tasks in each column
+- Highlight tasks which are due or have gone past their completion date
+- Persist ata in DB instead of localstorage
+- Allow users to be authenticated and have tasks assigned to them
+- Overdue and near due tasks to notify via email, text and or slack
