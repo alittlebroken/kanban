@@ -1,0 +1,91 @@
+.boardContainer {
+   margin: 1rem;
+   padding: 1rem;
+
+   border: 3px solid white;
+   border-radius: 8px;
+   background-color: #364958;
+
+   display: grid;
+   grid-template-columns: 1fr;
+   gap: .5rem;
+
+   box-shadow: 5px 7px 25px black;
+   width: 90vw;
+   height: fit-content;
+}
+
+.boardContainer h1 {
+   color: #87bba2;
+}
+
+.boardColumnWrapper {
+   display: grid;
+   grid-template-columns: 1fr;
+   gap: 1rem;
+}
+
+
+/* Small */
+@media screen and (min-width: 640px) {
+
+   .boardContainer {
+      padding: 2rem;
+   
+      /*border: 3px solid #364958*/;
+      border: 3px solid white;
+      border-radius: 8px;
+      background-color: #364958;
+   
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+   
+      box-shadow: 5px 7px 25px black;
+   
+   }
+   
+   .boardContainer h1 {
+      color: #87bba2;
+   }
+   
+   .boardColumnWrapper {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 25px;
+   }
+
+}
+
+/* Medium */
+@media screen and (min-width: 768px) {
+
+   .boardContainer {
+      width: auto;
+   }
+
+   .boardColumnWrapper {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 25px;
+   }
+
+}
+
+/* Large */
+@media screen and (min-width: 1024px) {
+
+   .boardColumnWrapper {
+      grid-template-columns: repeat(auto, 1fr);
+      gap: 25px;
+   }
+
+}
+
+/* Extra large */
+@media screen and (min-width: 1280px) {
+
+}
+
+/* 2 Extra Large */
+@media screen and (min-width: 1536px) {
+
+}

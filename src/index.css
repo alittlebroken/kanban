@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  font-family: "Roboto", serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.85);
+  background-image: url(backdrop_001.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 16
+}
+
+/* FONTS */
+
+.roboto-300 {
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.roboto-100 {
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.roboto-400 {
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* Grid classes */
+.grid {
+  display: grid;
+}
+
+.grid-col-quarter {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-col-half {
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.grid-col-full {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+/* Small */
+@media screen and (min-width: 640px) {
+
+}
+
+/* Medium */
+@media screen and (min-width: 768px) {
+
+}
+
+/* Large */
+@media screen and (min-width: 1024px) {
+
+}
+
+/* Extra large */
+@media screen and (min-width: 1280px) {
+
+}
+
+/* 2 Extra Large */
+@media screen and (min-width: 1536px) {
+
+}

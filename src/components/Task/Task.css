@@ -1,0 +1,62 @@
+.taskItemWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    width: 100%;
+    height: fit-content;
+
+    background-color: #3b6064;
+    color: #c9e4ca;
+    border-radius: 8px;
+
+    padding: 6px;
+
+}
+
+.taskTitleWrapper {
+    font-size: 1rem;
+    text-justify: center;
+    display: flex;
+}
+
+.taskInfoWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: around;
+}
+
+.taskDelete {
+    cursor: pointer;
+}
+
+.taskPriority {
+    font-size: 1rem;
+}
+
+/* Small */
+@media screen and (min-width: 640px) {
+
+ 
+ }
+ 
+ /* Medium */
+ @media screen and (min-width: 768px) {
+ 
+ }
+ 
+ /* Large */
+ @media screen and (min-width: 1024px) {
+ 
+ }
+ 
+ /* Extra large */
+ @media screen and (min-width: 1280px) {
+ 
+ }
+ 
+ /* 2 Extra Large */
+ @media screen and (min-width: 1536px) {
+ 
+ }
